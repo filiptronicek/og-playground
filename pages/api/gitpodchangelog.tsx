@@ -28,14 +28,14 @@ export default async (req) => {
       >
         <div tw="flex">
           <div tw="flex flex-col md:flex-row w-full py-12 px-4 md:items-center justify-between p-8">
-            <h2 tw="flex flex-col text-3xl sm:text-6xl tracking-tight text-gray-900">
+            <h2 tw="flex flex-col text-3xl sm:text-9xl tracking-tight text-gray-900">
               <span tw="text-[#FFB45B]">The {month} changelog</span>
               <span tw="text-[#FFB45B]">{releaseDate}</span>
 
               <hr />
               <hr />
               <span tw="text-red-500 font-bold">A DRAFT 🚨</span>
-              <span tw="text-2xl">
+              <span tw="text-4xl">
                 Change this before merging, pretty please 🙏
               </span>
             </h2>
@@ -45,8 +45,8 @@ export default async (req) => {
     ),
 
     {
-      width: 800,
-      height: 400,
+      width: 1472,
+      height: 944,
       fonts: [
         {
           name: 'Inter',
