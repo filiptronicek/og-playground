@@ -1,0 +1,55 @@
+const brrr = {
+    cookies: {
+    GCP_IAP_UID: 'GCP_IAP_UID=113111093539679691528; Path=/',
+    ajs_anonymous_id: 'ajs_anonymous_id=f27a2942-120c-47a5-8524-736ab1fb9352; Path=/',
+    __stripe_mid: '__stripe_mid=97216e5b-4de5-4a50-ae24-2f4541526521cf81ab; Path=/'
+  },
+    geo: {},
+    ip: undefined,
+    nextUrl: {
+    href: 'http://localhost:3000/api/hello?month=October&releaseDate=5',
+    origin: 'http://localhost:3000',
+    protocol: 'http:',
+    username: '',
+    password: '',
+    host: 'localhost:3000',
+    hostname: 'localhost',
+    port: '3000',
+    pathname: '/api/hello',
+    search: '?month=October&releaseDate=5',
+    searchParams: URLSearchParams {  },
+    hash: ''
+  },
+    url: 'http://localhost:3000/api/hello?month=October&releaseDate=5',
+    bodyUsed: false,
+    cache: 'default',
+    credentials: 'same-origin',
+    dnt: '1',
+    host: '3000-filiptronic-ogplaygroun-6g1ygd26ubb.ws-eu72.gitpod.io',
+    sec-fetch-dest: 'document',
+    sec-fetch-mode: 'navigate',
+    sec-fetch-site: 'none',
+    sec-fetch-user: '?1',
+    sec-gpc: '1',
+    te: 'trailers',
+    upgrade-insecure-requests: '1',
+    user-agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:106.0) Gecko/20100101 Firefox/106.0',
+    x-forwarded-for: '217.30.66.58',
+    x-forwarded-host: '3000-filiptronic-ogplaygroun-6g1ygd26ubb.ws-eu72.gitpod.io',
+    x-forwarded-port: '443',
+    x-forwarded-proto: 'https'
+  },
+    integrity: '',
+    keepalive: false,
+    method: 'GET',
+    mode: 'cors',
+    redirect: 'follow',
+    referrer: 'about:client',
+    referrerPolicy: '',
+    signal: AbortSignal {
+    [Symbol(kAborted)]: false,
+    [Symbol(kReason)]: undefined,
+    [Symbol(kOnabort)]: undefined,
+    [Symbol(realm)]: { settingsObject: {} }
+  }
+  }
