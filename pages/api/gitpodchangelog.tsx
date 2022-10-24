@@ -9,7 +9,7 @@ const font = fetch(new URL('../../assets/inter-latin-ext-700-normal.woff', impor
 );
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default async (req) => {
+export default async (req: any) => {
   const {month, releaseDate} = {month: req.nextUrl.searchParams.get("month"), releaseDate: req.nextUrl.searchParams.get("date")};
   const fontData = await font;
   return new ImageResponse(
